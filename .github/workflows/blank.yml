@@ -1,0 +1,28 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Firwt workflow
+
+# Controls when the workflow will run
+on: workflow_dispatch
+
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  first-job:
+    runs-on: ubuntu-latest
+    # The type of runner that the job will run on
+    
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+
+      # Runs a single command using the runners shell
+      - name: Hello
+        run: echo Hello, world!
+
+      # Runs a set of commands using the runners shell
+      - name: Goodbye
+        run: echo Goodbye!
+        
